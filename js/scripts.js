@@ -20,6 +20,6 @@ $(document).ready(function(){
   $("#blanks").submit(function(event){
     event.preventDefault();
     var userInput = parseInt($("#user").val());
-    console.log("numbers");
+    $("#output").text(result);
   });
 });
